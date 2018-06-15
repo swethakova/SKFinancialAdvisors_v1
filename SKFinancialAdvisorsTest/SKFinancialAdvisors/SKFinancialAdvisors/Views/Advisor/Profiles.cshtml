@@ -1,0 +1,42 @@
+﻿@model SKFinancialAdvisors.Models.Advisor
+
+@{
+    ViewBag.Title = "Profiles";
+}
+
+<h2>Profiles</h2>
+
+<table style="font-family:Arial">
+    <tr>
+        <td>
+            <b>Advisor Id:</b>
+        </td>
+        <td>
+            @Model.Id
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>First Name:</b>
+        </td>
+        <td>
+            @Model.FirstName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Last Name:</b>
+        </td>
+        <td>
+            @Model.LastName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Sector:</b>
+        </td>
+        <td>
+            @Model.Sector
+        </td>
+    </tr>
+</table>

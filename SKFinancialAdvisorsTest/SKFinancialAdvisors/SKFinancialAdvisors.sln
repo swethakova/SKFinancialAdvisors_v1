@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKFinancialAdvisors", "SKFinancialAdvisors\SKFinancialAdvisors.csproj", "{974D38F3-FF1F-4400-85E6-B60ABB14E674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKFinancialAdvisors.Tests", "SKFinancialAdvisors.Tests\SKFinancialAdvisors.Tests.csproj", "{ADE62C7F-1B70-47D7-B3D4-43B2D9BCED81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974D38F3-FF1F-4400-85E6-B60ABB14E674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974D38F3-FF1F-4400-85E6-B60ABB14E674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974D38F3-FF1F-4400-85E6-B60ABB14E674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974D38F3-FF1F-4400-85E6-B60ABB14E674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE62C7F-1B70-47D7-B3D4-43B2D9BCED81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE62C7F-1B70-47D7-B3D4-43B2D9BCED81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE62C7F-1B70-47D7-B3D4-43B2D9BCED81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE62C7F-1B70-47D7-B3D4-43B2D9BCED81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9E69629-61AD-439F-98A9-4276DAB6E872}
+	EndGlobalSection
+EndGlobal
